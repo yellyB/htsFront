@@ -8,7 +8,7 @@ const App = () => {
 
   const getList = async () => {
     await axios
-      .get("http://127.0.0.1:8000/api/")
+      .get("http://127.0.0.1:8000/api")
       .then((response) => {
         console.log(response);
       })
